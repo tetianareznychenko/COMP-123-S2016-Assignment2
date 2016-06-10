@@ -25,37 +25,16 @@ namespace Assignment1
 
         static void Main(string[] args)
         {
-            //create a new istance of the Hero class
-            Hero blitzkrieg = new Hero("Blitzkrieg");
+
+            //create a new istance of the SuperHero classg
+            SuperHero blitzkrieg = new SuperHero("Blitzkrieg");
             blitzkrieg.Show();
-            Console.WriteLine("***************************");
-            Console.WriteLine("");
+            Console.WriteLine();
+            blitzkrieg.ShowPowers();
+            Console.WriteLine();
             blitzkrieg.Fight();
 
-            Random powers = new Random();
-
-            string[] _superPowers = new string[] { "Super Speed", "Super Strength", "Body Armour", "Flight", "Fire Generation", "Weather Control" };
-            int n = _superPowers.Length;
-            for (int i = 0; i < n; i++)
-            {
-                int r = i + (int)(powers.NextDouble() * (n - i));
-                string t = _superPowers[r];
-                _superPowers[r] = _superPowers[i];
-                _superPowers[i] = t;
-
-
-
-
-              
-            }
-            string first = _superPowers[0];
-            string second = _superPowers[1];
-            string third = _superPowers[2];
-            Console.WriteLine(first);
-            Console.WriteLine(second);
-            Console.WriteLine(third);
-
-
+   
 
         }
     }

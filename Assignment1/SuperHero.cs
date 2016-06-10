@@ -62,7 +62,7 @@ namespace Assignment1
         public SuperHero(string name)
             :base(name)
         {
-            _generateRandomPowers();
+
         }
 
         //PRIVATE METHODS ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -88,7 +88,10 @@ namespace Assignment1
                 _superPowers[r] = _superPowers[i];
                 _superPowers[i] = t;
             }
-
+            
+            Console.WriteLine("1. " + _superPowers[0]);
+            Console.WriteLine("2. " + _superPowers[1]);
+            Console.WriteLine("3. " + _superPowers[2]);
         }
 
         //PUBLIC METHODS ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -101,20 +104,13 @@ namespace Assignment1
          * @return {void}
          */
         public void ShowPowers()
-        {
+        {            
+            Console.WriteLine("***************************");
+            Console.WriteLine();
+            Console.WriteLine("MAXIMUM POWER!");
+            Console.WriteLine("Your new abilities:");
             _generateRandomPowers();
 
-            string first = _superPowers[0];
-            string second = _superPowers[1];
-            string third = _superPowers[2];
-
-            Console.WriteLine("***************************");
-            Console.WriteLine("         " + this.Name);
-            Console.WriteLine("MAXIUM POWER!");
-            Console.WriteLine("Your new abilities:");
-            Console.WriteLine("1. " + first);
-            Console.WriteLine("2. " + second);
-            Console.WriteLine("3. " + third);
             Console.WriteLine("***************************");
             Console.WriteLine("But remember: With great power comes great responsibility (c)");
             Console.WriteLine("Good Luck!");
