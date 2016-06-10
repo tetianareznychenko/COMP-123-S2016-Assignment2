@@ -9,7 +9,7 @@ namespace Assignment1
     /**
      * Author name: Tetiana Reznychenko
      * Student number: 300870231
-     * Date last Modified: 03/06/2016 8.20 pm
+     * Date last Modified: 10/06/2016 6.30 pm
      * Program description: Using MS Visual Studio, Build and Implement a Hero Class
      * 
      * @class Program 

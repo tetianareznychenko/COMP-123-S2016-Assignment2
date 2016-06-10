@@ -10,7 +10,7 @@ namespace Assignment1
      * Assignment 2
      * Author name: Tetiana Reznychenko
      * Student number: 300870231
-     * Date last Modified: 10/06/2016 3.20 pm
+     * Date last Modified: 10/06/2016 6.29 pm
      * Program description: Using MS Visual Studio, Build and Implement a SuperHero Class, 
      * SuperHero class is a subclass of the Hero superclass from Assignment 1
      */
