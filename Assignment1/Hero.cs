@@ -23,8 +23,7 @@ namespace Assignment1
         private int _strength;
         private int _speed;
         private int _health;
-        private string _name;
-        private readonly object set;
+        private string _name; 
 
         //PUBLIC PROPERTIES ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
         /**
